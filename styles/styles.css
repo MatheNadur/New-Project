@@ -38,19 +38,33 @@ header nav a{
     color: white;
     text-decoration: none;
 }
+header .header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
 
 h2{
    border: 1px solid red;
    height: 50px;
    width: 300px;
-
-    margin-top: 0px;
-   margin-bottom: 0px;
-   margin-left: 0px;
-   margin-right: 0px;
-
-   padding-left: 0px;
-   padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+}
+main .container-grid{
+    display: flex;
+    justify-content: space-between;
+}
+main .coluna1{
+    width: 75%;
+    background-color: darkgrey;
+}
+main .coluna2{
+    width: 20%;
+    background-color: deeppink;
+}
+main .coluna1 #Lapizera{
+    width: 100%;
+}
+section .paragrafos{
+    margin-top: 10px ;
 }
